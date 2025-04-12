@@ -1,0 +1,158 @@
+{
+    "classes": [
+        {
+            "title": "coat",
+            "shape": "bitmap",
+            "color": "#0F5D8A",
+            "geometry_config": {},
+            "id": 6462883,
+            "hotkey": ""
+        },
+        {
+            "title": "dress",
+            "shape": "bitmap",
+            "color": "#840F8A",
+            "geometry_config": {},
+            "id": 6462882,
+            "hotkey": ""
+        },
+        {
+            "title": "face",
+            "shape": "bitmap",
+            "color": "#00FF15",
+            "geometry_config": {},
+            "id": 6462889,
+            "hotkey": ""
+        },
+        {
+            "title": "glove",
+            "shape": "bitmap",
+            "color": "#8A820F",
+            "geometry_config": {},
+            "id": 6462879,
+            "hotkey": ""
+        },
+        {
+            "title": "hair",
+            "shape": "bitmap",
+            "color": "#8B572A",
+            "geometry_config": {},
+            "id": 6462878,
+            "hotkey": ""
+        },
+        {
+            "title": "hat",
+            "shape": "bitmap",
+            "color": "#FCFF38",
+            "geometry_config": {},
+            "id": 6462877,
+            "hotkey": ""
+        },
+        {
+            "title": "left_arm",
+            "shape": "bitmap",
+            "color": "#0F6C8A",
+            "geometry_config": {},
+            "id": 6462890,
+            "hotkey": ""
+        },
+        {
+            "title": "left_leg",
+            "shape": "bitmap",
+            "color": "#002BFF",
+            "geometry_config": {},
+            "id": 6462892,
+            "hotkey": ""
+        },
+        {
+            "title": "left_shoe",
+            "shape": "bitmap",
+            "color": "#F000FF",
+            "geometry_config": {},
+            "id": 6462894,
+            "hotkey": ""
+        },
+        {
+            "title": "pants",
+            "shape": "bitmap",
+            "color": "#7FC880",
+            "geometry_config": {},
+            "id": 6462885,
+            "hotkey": ""
+        },
+        {
+            "title": "right_arm",
+            "shape": "bitmap",
+            "color": "#8A0F15",
+            "geometry_config": {},
+            "id": 6462891,
+            "hotkey": ""
+        },
+        {
+            "title": "right_leg",
+            "shape": "bitmap",
+            "color": "#FF4C00",
+            "geometry_config": {},
+            "id": 6462893,
+            "hotkey": ""
+        },
+        {
+            "title": "right_shoe",
+            "shape": "bitmap",
+            "color": "#AB0078",
+            "geometry_config": {},
+            "id": 6462895,
+            "hotkey": ""
+        },
+        {
+            "title": "scarf",
+            "shape": "bitmap",
+            "color": "#58DCE7",
+            "geometry_config": {},
+            "id": 6462887,
+            "hotkey": ""
+        },
+        {
+            "title": "skirt",
+            "shape": "bitmap",
+            "color": "#8A800F",
+            "geometry_config": {},
+            "id": 6462888,
+            "hotkey": ""
+        },
+        {
+            "title": "socks",
+            "shape": "bitmap",
+            "color": "#8A0F2E",
+            "geometry_config": {},
+            "id": 6462884,
+            "hotkey": ""
+        },
+        {
+            "title": "sunglasses",
+            "shape": "bitmap",
+            "color": "#3A8A0F",
+            "geometry_config": {},
+            "id": 6462880,
+            "hotkey": ""
+        },
+        {
+            "title": "torso_skin",
+            "shape": "bitmap",
+            "color": "#00FCFF",
+            "geometry_config": {},
+            "id": 6462886,
+            "hotkey": ""
+        },
+        {
+            "title": "upperclothes",
+            "shape": "bitmap",
+            "color": "#8A0F44",
+            "geometry_config": {},
+            "id": 6462881,
+            "hotkey": ""
+        }
+    ],
+    "tags": [],
+    "projectType": "images"
+}
