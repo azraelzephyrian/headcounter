@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Detection Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        .note {
+            color: #c00;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Face Count Result</h1>
+    <p>Detected Heads: {{ count }}</p>
+
+    <div class="image-container">
+        <div>
+            <h3>Original Image</h3>
+            <img src="data:image/png;base64,{{ original }}" alt="Original Image" width="400">
+        </div>
+        <div>
+            <h3>Mask with Face Centroids</h3>
+            <img src="data:image/png;base64,{{ centroids }}" alt="Mask with Centroids" width="400">
+            <div class="note">Green dots indicate detected face centers.</div>
+        </div>
+        <div>
+            <h3>Blended Image (50% Mask)</h3>
+            <img src="data:image/png;base64,{{ blended }}" alt="Blended Mask Image" width="400">
+        </div>
+    </div>
+
+    <a href="/" class="back-button">Upload Another Image</a>
+</body>
+</html>
+
